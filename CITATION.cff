@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Se usar estes modelos, cite o repositório assim (opcional: os modelos estão em domínio público)."
+title: "Scitizia: peças 64 bits - 190 peças de carro low poly em glTF/GLB"
+type: dataset
+authors:
+  - alias: kayquer
+repository-code: "https://github.com/kayquer/scitizia-pecas-64"
+url: "https://github.com/kayquer/scitizia-pecas-64"
+license: CC0-1.0
+abstract: "Coleção de 190 peças de carro em baixo polígono com visual retrô de console de 64 bits (31 tipos, da peça de fábrica à preparação total de rali, mais 4 especiais), em glTF 2.0 binário (.glb), com cor por vértice, texturas PNG de 64 px, prévias e catálogo JSON."
+keywords:
+  - low poly
+  - car parts
+  - auto parts
+  - upgrades
+  - rally
+  - racing
+  - 3d models
+  - gltf
+  - glb
+  - game assets
+  - retro
+  - 64-bit

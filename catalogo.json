@@ -1,0 +1,3685 @@
+{
+ "nome": "Scitizia: peças 64 bits",
+ "versao": 1,
+ "unidades": "metros; Y para cima; cada peça centrada em X/Z com a base em y = 0",
+ "niveis": {
+  "fabrica": "De fábrica",
+  "n1": "Rua",
+  "n2": "Esportivo",
+  "n3": "Competição",
+  "n4": "Rali",
+  "n5": "Preparação total",
+  "especial": "Especial"
+ },
+ "campos": {
+  "nivel": "fabrica (peça original do carro), n1 a n5 (rua, esportivo, competição, rali, preparação total) e especial (prêmio)",
+  "dimensoes": "largura (X), altura (Y) e profundidade (Z) da caixa do modelo, em metros",
+  "triangulos": "triângulos do .glb",
+  "kb": "tamanho do .glb com as texturas embutidas",
+  "materiais": "fosco, brilho (metal polido e pintura), carbono, borracha e luz (lentes): a cor vem da cor por vértice"
+ },
+ "categorias": [
+  {
+   "id": 0,
+   "nome": "Motor: admissão e escapamento"
+  },
+  {
+   "id": 1,
+   "nome": "Motor: preparação interna"
+  },
+  {
+   "id": 2,
+   "nome": "Motor: injeção eletrônica"
+  },
+  {
+   "id": 3,
+   "nome": "Turbo e compressor"
+  },
+  {
+   "id": 4,
+   "nome": "Transmissão"
+  },
+  {
+   "id": 5,
+   "nome": "Suspensão e chassi"
+  },
+  {
+   "id": 6,
+   "nome": "Freios"
+  },
+  {
+   "id": 7,
+   "nome": "Pneus e rodas"
+  },
+  {
+   "id": 8,
+   "nome": "Carroceria e aerodinâmica"
+  },
+  {
+   "id": 9,
+   "nome": "Conversões"
+  }
+ ],
+ "pecas": [
+  {
+   "id": "filtro_ar",
+   "nome": "Filtro de ar",
+   "categoria": "Motor: admissão e escapamento",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Filtro de ar de fábrica",
+     "triangulos": 180,
+     "kb": 14.8,
+     "dimensoes": [
+      0.522,
+      0.172,
+      0.33
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/filtro_ar/filtro_ar_fabrica.glb",
+     "previa": "previas/filtro_ar/filtro_ar_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Filtro esportivo de painel",
+     "triangulos": 152,
+     "kb": 15.3,
+     "dimensoes": [
+      0.3,
+      0.058,
+      0.22
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/filtro_ar/filtro_ar_n1.glb",
+     "previa": "previas/filtro_ar/filtro_ar_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Filtro de alto fluxo lavável",
+     "triangulos": 180,
+     "kb": 14.1,
+     "dimensoes": [
+      0.372,
+      0.152,
+      0.152
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/filtro_ar/filtro_ar_n2.glb",
+     "previa": "previas/filtro_ar/filtro_ar_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Filtro cônico com tomada de ar frio",
+     "triangulos": 224,
+     "kb": 17.4,
+     "dimensoes": [
+      0.39,
+      0.22,
+      0.26
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/filtro_ar/filtro_ar_n3.glb",
+     "previa": "previas/filtro_ar/filtro_ar_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Caixa de ar fechada",
+     "triangulos": 292,
+     "kb": 23.2,
+     "dimensoes": [
+      0.43,
+      0.22,
+      0.26
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/filtro_ar/filtro_ar_n4.glb",
+     "previa": "previas/filtro_ar/filtro_ar_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Admissão de competição com tomada dinâmica",
+     "triangulos": 316,
+     "kb": 25.3,
+     "dimensoes": [
+      0.46,
+      0.38,
+      0.26
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/filtro_ar/filtro_ar_n5.glb",
+     "previa": "previas/filtro_ar/filtro_ar_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "coletor_escape",
+   "nome": "Coletor de escape",
+   "categoria": "Motor: admissão e escapamento",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Coletor de escape de fábrica",
+     "triangulos": 308,
+     "kb": 23.3,
+     "dimensoes": [
+      0.42,
+      0.338,
+      0.147
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/coletor_escape/coletor_escape_fabrica.glb",
+     "previa": "previas/coletor_escape/coletor_escape_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Coletor dimensionado 4x1",
+     "triangulos": 412,
+     "kb": 29.9,
+     "dimensoes": [
+      0.42,
+      0.29,
+      0.191
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/coletor_escape/coletor_escape_n1.glb",
+     "previa": "previas/coletor_escape/coletor_escape_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Coletor 4x2x1",
+     "triangulos": 488,
+     "kb": 34.4,
+     "dimensoes": [
+      0.42,
+      0.46,
+      0.191
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/coletor_escape/coletor_escape_n2.glb",
+     "previa": "previas/coletor_escape/coletor_escape_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Coletor 4x2x1 em inox",
+     "triangulos": 488,
+     "kb": 34.6,
+     "dimensoes": [
+      0.42,
+      0.49,
+      0.191
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/coletor_escape/coletor_escape_n3.glb",
+     "previa": "previas/coletor_escape/coletor_escape_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Coletor de competição em inox",
+     "triangulos": 512,
+     "kb": 36.1,
+     "dimensoes": [
+      0.42,
+      0.52,
+      0.191
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/coletor_escape/coletor_escape_n4.glb",
+     "previa": "previas/coletor_escape/coletor_escape_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Coletor de competição de tubos longos",
+     "triangulos": 608,
+     "kb": 44.1,
+     "dimensoes": [
+      0.42,
+      0.55,
+      0.191
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/coletor_escape/coletor_escape_n5.glb",
+     "previa": "previas/coletor_escape/coletor_escape_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "escape",
+   "nome": "Escapamento",
+   "categoria": "Motor: admissão e escapamento",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Escapamento de fábrica",
+     "triangulos": 144,
+     "kb": 11.4,
+     "dimensoes": [
+      1.002,
+      0.19,
+      0.2
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/escape/escape_fabrica.glb",
+     "previa": "previas/escape/escape_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Escapamento esportivo (abafador direto)",
+     "triangulos": 284,
+     "kb": 19,
+     "dimensoes": [
+      1.003,
+      0.164,
+      0.172
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/escape/escape_n1.glb",
+     "previa": "previas/escape/escape_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Escapamento dimensionado",
+     "triangulos": 284,
+     "kb": 19,
+     "dimensoes": [
+      1.023,
+      0.175,
+      0.184
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/escape/escape_n2.glb",
+     "previa": "previas/escape/escape_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Escapamento dimensionado em inox",
+     "triangulos": 364,
+     "kb": 24.7,
+     "dimensoes": [
+      1.043,
+      0.186,
+      0.196
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/escape/escape_n3.glb",
+     "previa": "previas/escape/escape_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Escapamento de competição",
+     "triangulos": 376,
+     "kb": 31.2,
+     "dimensoes": [
+      1.063,
+      0.238,
+      0.208
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/escape/escape_n4.glb",
+     "previa": "previas/escape/escape_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Escapamento de competição em titânio",
+     "triangulos": 376,
+     "kb": 31.2,
+     "dimensoes": [
+      1.083,
+      0.25,
+      0.22
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/escape/escape_n5.glb",
+     "previa": "previas/escape/escape_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "comando",
+   "nome": "Comando de válvulas",
+   "categoria": "Motor: preparação interna",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Comando de válvulas de fábrica",
+     "triangulos": 704,
+     "kb": 45.7,
+     "dimensoes": [
+      0.48,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/comando/comando_fabrica.glb",
+     "previa": "previas/comando/comando_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Comando de rua (graduação suave)",
+     "triangulos": 704,
+     "kb": 45.6,
+     "dimensoes": [
+      0.48,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/comando/comando_n1.glb",
+     "previa": "previas/comando/comando_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Comando esportivo",
+     "triangulos": 704,
+     "kb": 45.6,
+     "dimensoes": [
+      0.48,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/comando/comando_n2.glb",
+     "previa": "previas/comando/comando_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Comando bravo",
+     "triangulos": 832,
+     "kb": 55.1,
+     "dimensoes": [
+      0.492,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/comando/comando_n3.glb",
+     "previa": "previas/comando/comando_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Comando de competição",
+     "triangulos": 880,
+     "kb": 58.3,
+     "dimensoes": [
+      0.492,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/comando/comando_n4.glb",
+     "previa": "previas/comando/comando_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Comando de alta graduação",
+     "triangulos": 928,
+     "kb": 61.6,
+     "dimensoes": [
+      0.492,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/comando/comando_n5.glb",
+     "previa": "previas/comando/comando_n5.png"
+    },
+    {
+     "nivel": "especial",
+     "nivel_nome": "Especial",
+     "nome": "Comando da série especial (prêmio)",
+     "triangulos": 1016,
+     "kb": 67,
+     "dimensoes": [
+      0.492,
+      0.119,
+      0.119
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/comando/comando_especial.glb",
+     "previa": "previas/comando/comando_especial.png"
+    }
+   ]
+  },
+  {
+   "id": "volante_motor",
+   "nome": "Volante do motor",
+   "categoria": "Motor: preparação interna",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Volante do motor de fábrica",
+     "triangulos": 496,
+     "kb": 34.5,
+     "dimensoes": [
+      0.299,
+      0.066,
+      0.299
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/volante_motor/volante_motor_fabrica.glb",
+     "previa": "previas/volante_motor/volante_motor_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Volante aliviado",
+     "triangulos": 624,
+     "kb": 41.8,
+     "dimensoes": [
+      0.299,
+      0.06,
+      0.299
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/volante_motor/volante_motor_n1.glb",
+     "previa": "previas/volante_motor/volante_motor_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Volante de aço leve",
+     "triangulos": 688,
+     "kb": 45.4,
+     "dimensoes": [
+      0.299,
+      0.054,
+      0.299
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/volante_motor/volante_motor_n2.glb",
+     "previa": "previas/volante_motor/volante_motor_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Volante de aço leve balanceado",
+     "triangulos": 896,
+     "kb": 59.9,
+     "dimensoes": [
+      0.299,
+      0.048,
+      0.299
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/volante_motor/volante_motor_n3.glb",
+     "previa": "previas/volante_motor/volante_motor_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Volante de cromo-molibdênio",
+     "triangulos": 960,
+     "kb": 63.6,
+     "dimensoes": [
+      0.299,
+      0.042,
+      0.299
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/volante_motor/volante_motor_n4.glb",
+     "previa": "previas/volante_motor/volante_motor_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Volante de competição em alumínio",
+     "triangulos": 960,
+     "kb": 63.6,
+     "dimensoes": [
+      0.299,
+      0.036,
+      0.299
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/volante_motor/volante_motor_n5.glb",
+     "previa": "previas/volante_motor/volante_motor_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "carter",
+   "nome": "Cárter",
+   "categoria": "Motor: preparação interna",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Cárter de fábrica",
+     "triangulos": 280,
+     "kb": 22.1,
+     "dimensoes": [
+      0.5,
+      0.154,
+      0.3
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/carter/carter_fabrica.glb",
+     "previa": "previas/carter/carter_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Cárter com chicanas",
+     "triangulos": 280,
+     "kb": 22.1,
+     "dimensoes": [
+      0.5,
+      0.154,
+      0.3
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/carter/carter_n1.glb",
+     "previa": "previas/carter/carter_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Cárter aletado com chicanas",
+     "triangulos": 340,
+     "kb": 27.2,
+     "dimensoes": [
+      0.5,
+      0.154,
+      0.3
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/carter/carter_n2.glb",
+     "previa": "previas/carter/carter_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Cárter ampliado com portinholas",
+     "triangulos": 352,
+     "kb": 28.3,
+     "dimensoes": [
+      0.5,
+      0.194,
+      0.3
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/carter/carter_n3.glb",
+     "previa": "previas/carter/carter_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Cárter de competição com portinholas",
+     "triangulos": 364,
+     "kb": 29.3,
+     "dimensoes": [
+      0.5,
+      0.194,
+      0.3
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/carter/carter_n4.glb",
+     "previa": "previas/carter/carter_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Cárter seco",
+     "triangulos": 628,
+     "kb": 50.9,
+     "dimensoes": [
+      0.717,
+      0.31,
+      0.383
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_carbono",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/carter/carter_n5.glb",
+     "previa": "previas/carter/carter_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "radiador",
+   "nome": "Radiador",
+   "categoria": "Motor: preparação interna",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Radiador de fábrica",
+     "triangulos": 252,
+     "kb": 24.5,
+     "dimensoes": [
+      0.768,
+      0.39,
+      0.097
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/radiador/radiador_fabrica.glb",
+     "previa": "previas/radiador/radiador_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Radiador de alumínio",
+     "triangulos": 252,
+     "kb": 24.5,
+     "dimensoes": [
+      0.808,
+      0.41,
+      0.101
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/radiador/radiador_n1.glb",
+     "previa": "previas/radiador/radiador_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Radiador de alumínio com radiador de óleo",
+     "triangulos": 288,
+     "kb": 27.5,
+     "dimensoes": [
+      0.848,
+      0.43,
+      0.113
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/radiador/radiador_n2.glb",
+     "previa": "previas/radiador/radiador_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Radiador de alta capacidade",
+     "triangulos": 252,
+     "kb": 25.6,
+     "dimensoes": [
+      0.888,
+      0.45,
+      0.109
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/radiador/radiador_n3.glb",
+     "previa": "previas/radiador/radiador_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Radiador de alta capacidade com radiador de óleo",
+     "triangulos": 288,
+     "kb": 28.6,
+     "dimensoes": [
+      0.928,
+      0.47,
+      0.13
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/radiador/radiador_n4.glb",
+     "previa": "previas/radiador/radiador_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Arrefecimento de competição (radiador duplo e eletroventilador)",
+     "triangulos": 416,
+     "kb": 39.3,
+     "dimensoes": [
+      0.928,
+      0.47,
+      0.243
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/radiador/radiador_n5.glb",
+     "previa": "previas/radiador/radiador_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "ecu",
+   "nome": "Módulo de injeção",
+   "categoria": "Motor: injeção eletrônica",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Módulo de injeção de fábrica",
+     "triangulos": 148,
+     "kb": 14.2,
+     "dimensoes": [
+      0.422,
+      0.063,
+      0.15
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/ecu/ecu_fabrica.glb",
+     "previa": "previas/ecu/ecu_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Remapeamento (estágio 1)",
+     "triangulos": 262,
+     "kb": 24.1,
+     "dimensoes": [
+      0.422,
+      0.063,
+      0.214
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/ecu/ecu_n1.glb",
+     "previa": "previas/ecu/ecu_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Remapeamento (estágio 2)",
+     "triangulos": 282,
+     "kb": 25.4,
+     "dimensoes": [
+      0.422,
+      0.063,
+      0.214
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/ecu/ecu_n2.glb",
+     "previa": "previas/ecu/ecu_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Remapeamento (estágio 3)",
+     "triangulos": 302,
+     "kb": 27.9,
+     "dimensoes": [
+      0.422,
+      0.063,
+      0.214
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/ecu/ecu_n3.glb",
+     "previa": "previas/ecu/ecu_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Injeção programável",
+     "triangulos": 216,
+     "kb": 20.5,
+     "dimensoes": [
+      0.437,
+      0.077,
+      0.262
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/ecu/ecu_n4.glb",
+     "previa": "previas/ecu/ecu_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Injeção programável com controle de largada",
+     "triangulos": 342,
+     "kb": 29.5,
+     "dimensoes": [
+      0.452,
+      0.077,
+      0.331
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/ecu/ecu_n5.glb",
+     "previa": "previas/ecu/ecu_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "turbo",
+   "nome": "Turbina",
+   "categoria": "Turbo e compressor",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Turbina de fábrica",
+     "triangulos": 668,
+     "kb": 42.9,
+     "dimensoes": [
+      0.303,
+      0.208,
+      0.248
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/turbo/turbo_fabrica.glb",
+     "previa": "previas/turbo/turbo_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Turbina recalibrada (mais pressão)",
+     "triangulos": 668,
+     "kb": 42.9,
+     "dimensoes": [
+      0.327,
+      0.225,
+      0.267
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/turbo/turbo_n1.glb",
+     "previa": "previas/turbo/turbo_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Turbina maior de rolamento",
+     "triangulos": 668,
+     "kb": 42.9,
+     "dimensoes": [
+      0.351,
+      0.241,
+      0.287
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/turbo/turbo_n2.glb",
+     "previa": "previas/turbo/turbo_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Turbina de alta vazão",
+     "triangulos": 684,
+     "kb": 44.1,
+     "dimensoes": [
+      0.375,
+      0.293,
+      0.307
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/turbo/turbo_n3.glb",
+     "previa": "previas/turbo/turbo_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Turbina de alta vazão com válvula de alívio externa",
+     "triangulos": 732,
+     "kb": 46.8,
+     "dimensoes": [
+      0.404,
+      0.312,
+      0.35
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/turbo/turbo_n4.glb",
+     "previa": "previas/turbo/turbo_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Turbina de dupla entrada",
+     "triangulos": 744,
+     "kb": 47.8,
+     "dimensoes": [
+      0.428,
+      0.333,
+      0.371
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/turbo/turbo_n5.glb",
+     "previa": "previas/turbo/turbo_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "intercooler",
+   "nome": "Intercooler",
+   "categoria": "Turbo e compressor",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Intercooler de fábrica",
+     "triangulos": 272,
+     "kb": 26.6,
+     "dimensoes": [
+      0.636,
+      0.2,
+      0.199
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/intercooler/intercooler_fabrica.glb",
+     "previa": "previas/intercooler/intercooler_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Intercooler maior",
+     "triangulos": 272,
+     "kb": 26.6,
+     "dimensoes": [
+      0.696,
+      0.22,
+      0.204
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/intercooler/intercooler_n1.glb",
+     "previa": "previas/intercooler/intercooler_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Intercooler frontal",
+     "triangulos": 272,
+     "kb": 26.6,
+     "dimensoes": [
+      0.896,
+      0.24,
+      0.204
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/intercooler/intercooler_n2.glb",
+     "previa": "previas/intercooler/intercooler_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Intercooler frontal de colmeia grossa",
+     "triangulos": 272,
+     "kb": 27.7,
+     "dimensoes": [
+      0.936,
+      0.26,
+      0.219
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/intercooler/intercooler_n3.glb",
+     "previa": "previas/intercooler/intercooler_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Intercooler frontal de competição",
+     "triangulos": 272,
+     "kb": 27.7,
+     "dimensoes": [
+      0.976,
+      0.27,
+      0.219
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/intercooler/intercooler_n4.glb",
+     "previa": "previas/intercooler/intercooler_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Intercooler frontal com borrifador de água",
+     "triangulos": 456,
+     "kb": 39.5,
+     "dimensoes": [
+      0.996,
+      0.286,
+      0.319
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/intercooler/intercooler_n5.glb",
+     "previa": "previas/intercooler/intercooler_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "compressor",
+   "nome": "Compressor mecânico",
+   "categoria": "Turbo e compressor",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Compressor mecânico de fábrica",
+     "triangulos": 164,
+     "kb": 14.5,
+     "dimensoes": [
+      0.41,
+      0.12,
+      0.219
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/compressor/compressor_fabrica.glb",
+     "previa": "previas/compressor/compressor_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Compressor de lóbulos de baixa pressão",
+     "triangulos": 248,
+     "kb": 19.9,
+     "dimensoes": [
+      0.383,
+      0.205,
+      0.18
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/compressor/compressor_n1.glb",
+     "previa": "previas/compressor/compressor_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Compressor de lóbulos",
+     "triangulos": 260,
+     "kb": 20.9,
+     "dimensoes": [
+      0.423,
+      0.205,
+      0.18
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/compressor/compressor_n2.glb",
+     "previa": "previas/compressor/compressor_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Compressor de lóbulos com intercooler",
+     "triangulos": 312,
+     "kb": 30,
+     "dimensoes": [
+      0.463,
+      0.278,
+      0.218
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/compressor/compressor_n3.glb",
+     "previa": "previas/compressor/compressor_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Compressor de parafuso",
+     "triangulos": 468,
+     "kb": 29.6,
+     "dimensoes": [
+      0.503,
+      0.221,
+      0.203
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/compressor/compressor_n4.glb",
+     "previa": "previas/compressor/compressor_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Compressor de parafuso com intercooler",
+     "triangulos": 508,
+     "kb": 36.6,
+     "dimensoes": [
+      0.503,
+      0.294,
+      0.23
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/compressor/compressor_n5.glb",
+     "previa": "previas/compressor/compressor_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "embreagem",
+   "nome": "Embreagem",
+   "categoria": "Transmissão",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Embreagem de fábrica",
+     "triangulos": 584,
+     "kb": 43,
+     "dimensoes": [
+      0.254,
+      0.075,
+      0.254
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/embreagem/embreagem_fabrica.glb",
+     "previa": "previas/embreagem/embreagem_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Embreagem reforçada (disco orgânico)",
+     "triangulos": 632,
+     "kb": 46.2,
+     "dimensoes": [
+      0.254,
+      0.075,
+      0.254
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/embreagem/embreagem_n1.glb",
+     "previa": "previas/embreagem/embreagem_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Embreagem de platô reforçado",
+     "triangulos": 632,
+     "kb": 46.2,
+     "dimensoes": [
+      0.254,
+      0.075,
+      0.254
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/embreagem/embreagem_n2.glb",
+     "previa": "previas/embreagem/embreagem_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Embreagem cerametálica",
+     "triangulos": 688,
+     "kb": 52.5,
+     "dimensoes": [
+      0.254,
+      0.075,
+      0.254
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/embreagem/embreagem_n3.glb",
+     "previa": "previas/embreagem/embreagem_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Embreagem bidisco cerametálica",
+     "triangulos": 952,
+     "kb": 70.7,
+     "dimensoes": [
+      0.254,
+      0.089,
+      0.254
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/embreagem/embreagem_n4.glb",
+     "previa": "previas/embreagem/embreagem_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Embreagem multidisco de competição",
+     "triangulos": 1480,
+     "kb": 107.1,
+     "dimensoes": [
+      0.201,
+      0.117,
+      0.201
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/embreagem/embreagem_n5.glb",
+     "previa": "previas/embreagem/embreagem_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "cambio",
+   "nome": "Câmbio",
+   "categoria": "Transmissão",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Câmbio de fábrica",
+     "triangulos": 276,
+     "kb": 24.1,
+     "dimensoes": [
+      0.57,
+      0.582,
+      0.348
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/cambio/cambio_fabrica.glb",
+     "previa": "previas/cambio/cambio_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Câmbio com relações mais curtas",
+     "triangulos": 288,
+     "kb": 25.1,
+     "dimensoes": [
+      0.57,
+      0.552,
+      0.348
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/cambio/cambio_n1.glb",
+     "previa": "previas/cambio/cambio_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Câmbio de relações fechadas",
+     "triangulos": 288,
+     "kb": 25.1,
+     "dimensoes": [
+      0.57,
+      0.522,
+      0.348
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/cambio/cambio_n2.glb",
+     "previa": "previas/cambio/cambio_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Câmbio de engates retos",
+     "triangulos": 432,
+     "kb": 35.6,
+     "dimensoes": [
+      0.57,
+      0.492,
+      0.348
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/cambio/cambio_n3.glb",
+     "previa": "previas/cambio/cambio_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Câmbio sequencial de engates retos",
+     "triangulos": 494,
+     "kb": 36.7,
+     "dimensoes": [
+      0.57,
+      0.624,
+      0.348
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/cambio/cambio_n4.glb",
+     "previa": "previas/cambio/cambio_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Câmbio sequencial com borboletas",
+     "triangulos": 542,
+     "kb": 43.5,
+     "dimensoes": [
+      0.606,
+      0.624,
+      0.379
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/cambio/cambio_n5.glb",
+     "previa": "previas/cambio/cambio_n5.png"
+    },
+    {
+     "nivel": "especial",
+     "nivel_nome": "Especial",
+     "nome": "Câmbio de engate rápido reforçado (prêmio)",
+     "triangulos": 542,
+     "kb": 43.5,
+     "dimensoes": [
+      0.606,
+      0.624,
+      0.379
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/cambio/cambio_especial.glb",
+     "previa": "previas/cambio/cambio_especial.png"
+    }
+   ]
+  },
+  {
+   "id": "diferencial",
+   "nome": "Diferencial",
+   "categoria": "Transmissão",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Diferencial de fábrica",
+     "triangulos": 584,
+     "kb": 37.4,
+     "dimensoes": [
+      0.59,
+      0.24,
+      0.288
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/diferencial/diferencial_fabrica.glb",
+     "previa": "previas/diferencial/diferencial_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Autoblocante viscoso",
+     "triangulos": 584,
+     "kb": 37.4,
+     "dimensoes": [
+      0.59,
+      0.24,
+      0.288
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/diferencial/diferencial_n1.glb",
+     "previa": "previas/diferencial/diferencial_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Autoblocante mecânico de 1 via",
+     "triangulos": 620,
+     "kb": 40.4,
+     "dimensoes": [
+      0.59,
+      0.24,
+      0.303
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/diferencial/diferencial_n2.glb",
+     "previa": "previas/diferencial/diferencial_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Autoblocante mecânico de 1,5 via",
+     "triangulos": 632,
+     "kb": 41.4,
+     "dimensoes": [
+      0.59,
+      0.24,
+      0.303
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/diferencial/diferencial_n3.glb",
+     "previa": "previas/diferencial/diferencial_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Autoblocante de 2 vias",
+     "triangulos": 644,
+     "kb": 44.2,
+     "dimensoes": [
+      0.59,
+      0.24,
+      0.303
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/diferencial/diferencial_n4.glb",
+     "previa": "previas/diferencial/diferencial_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Autoblocante de 2 vias com rampas reguláveis",
+     "triangulos": 688,
+     "kb": 47,
+     "dimensoes": [
+      0.59,
+      0.247,
+      0.33
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/diferencial/diferencial_n5.glb",
+     "previa": "previas/diferencial/diferencial_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "semieixos",
+   "nome": "Semieixos e homocinéticas",
+   "categoria": "Transmissão",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Semieixos e homocinéticas de fábrica",
+     "triangulos": 616,
+     "kb": 45.1,
+     "dimensoes": [
+      0.94,
+      0.118,
+      0.118
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/semieixos/semieixos_fabrica.glb",
+     "previa": "previas/semieixos/semieixos_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Homocinéticas reforçadas",
+     "triangulos": 616,
+     "kb": 45.1,
+     "dimensoes": [
+      0.94,
+      0.118,
+      0.118
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/semieixos/semieixos_n1.glb",
+     "previa": "previas/semieixos/semieixos_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Semieixos reforçados",
+     "triangulos": 616,
+     "kb": 45.1,
+     "dimensoes": [
+      0.94,
+      0.118,
+      0.118
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/semieixos/semieixos_n2.glb",
+     "previa": "previas/semieixos/semieixos_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Semieixos tratados com homocinéticas reforçadas",
+     "triangulos": 680,
+     "kb": 49.9,
+     "dimensoes": [
+      0.94,
+      0.118,
+      0.118
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/semieixos/semieixos_n3.glb",
+     "previa": "previas/semieixos/semieixos_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Semieixos de cromo-molibdênio",
+     "triangulos": 680,
+     "kb": 49.9,
+     "dimensoes": [
+      0.94,
+      0.118,
+      0.118
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/semieixos/semieixos_n4.glb",
+     "previa": "previas/semieixos/semieixos_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Semieixos de competição com homocinéticas de rali",
+     "triangulos": 680,
+     "kb": 49.9,
+     "dimensoes": [
+      0.94,
+      0.118,
+      0.118
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/semieixos/semieixos_n5.glb",
+     "previa": "previas/semieixos/semieixos_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "molas",
+   "nome": "Molas",
+   "categoria": "Suspensão e chassi",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Molas de fábrica",
+     "triangulos": 566,
+     "kb": 36.6,
+     "dimensoes": [
+      0.147,
+      0.26,
+      0.15
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/molas/molas_fabrica.glb",
+     "previa": "previas/molas/molas_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Molas esportivas",
+     "triangulos": 566,
+     "kb": 36.6,
+     "dimensoes": [
+      0.149,
+      0.24,
+      0.15
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/molas/molas_n1.glb",
+     "previa": "previas/molas/molas_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Molas de competição",
+     "triangulos": 606,
+     "kb": 38.7,
+     "dimensoes": [
+      0.151,
+      0.24,
+      0.151
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/molas/molas_n2.glb",
+     "previa": "previas/molas/molas_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Molas de rali",
+     "triangulos": 646,
+     "kb": 41,
+     "dimensoes": [
+      0.153,
+      0.26,
+      0.153
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/molas/molas_n3.glb",
+     "previa": "previas/molas/molas_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Molas de rali de curso longo",
+     "triangulos": 932,
+     "kb": 57.4,
+     "dimensoes": [
+      0.152,
+      0.36,
+      0.154
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/molas/molas_n4.glb",
+     "previa": "previas/molas/molas_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Molas progressivas de rali",
+     "triangulos": 1012,
+     "kb": 61.9,
+     "dimensoes": [
+      0.152,
+      0.38,
+      0.153
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/molas/molas_n5.glb",
+     "previa": "previas/molas/molas_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "amortecedores",
+   "nome": "Amortecedores",
+   "categoria": "Suspensão e chassi",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Amortecedores de fábrica",
+     "triangulos": 180,
+     "kb": 19.8,
+     "dimensoes": [
+      0.046,
+      0.531,
+      0.048
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_fabrica.glb",
+     "previa": "previas/amortecedores/amortecedores_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Amortecedores pressurizados",
+     "triangulos": 220,
+     "kb": 21.9,
+     "dimensoes": [
+      0.059,
+      0.531,
+      0.062
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_n1.glb",
+     "previa": "previas/amortecedores/amortecedores_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Amortecedores com regulagem de 1 via",
+     "triangulos": 252,
+     "kb": 23.8,
+     "dimensoes": [
+      0.065,
+      0.531,
+      0.08
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_n2.glb",
+     "previa": "previas/amortecedores/amortecedores_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Amortecedores de 2 vias",
+     "triangulos": 284,
+     "kb": 24.5,
+     "dimensoes": [
+      0.07,
+      0.531,
+      0.086
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_n3.glb",
+     "previa": "previas/amortecedores/amortecedores_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Amortecedores de 2 vias com reservatório",
+     "triangulos": 336,
+     "kb": 27.7,
+     "dimensoes": [
+      0.119,
+      0.531,
+      0.092
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_n4.glb",
+     "previa": "previas/amortecedores/amortecedores_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Amortecedores de 3 vias de rali",
+     "triangulos": 432,
+     "kb": 34.4,
+     "dimensoes": [
+      0.223,
+      0.531,
+      0.127
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_n5.glb",
+     "previa": "previas/amortecedores/amortecedores_n5.png"
+    },
+    {
+     "nivel": "especial",
+     "nivel_nome": "Especial",
+     "nome": "Amortecedores com válvulas sob medida (prêmio)",
+     "triangulos": 432,
+     "kb": 34.4,
+     "dimensoes": [
+      0.223,
+      0.531,
+      0.127
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/amortecedores/amortecedores_especial.glb",
+     "previa": "previas/amortecedores/amortecedores_especial.png"
+    }
+   ]
+  },
+  {
+   "id": "barras",
+   "nome": "Barras estabilizadoras",
+   "categoria": "Suspensão e chassi",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Barras estabilizadoras de fábrica",
+     "triangulos": 284,
+     "kb": 24.2,
+     "dimensoes": [
+      0.649,
+      0.199,
+      0.259
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/barras/barras_fabrica.glb",
+     "previa": "previas/barras/barras_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Barras mais grossas",
+     "triangulos": 284,
+     "kb": 24.1,
+     "dimensoes": [
+      0.649,
+      0.199,
+      0.259
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/barras/barras_n1.glb",
+     "previa": "previas/barras/barras_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Barras reguláveis",
+     "triangulos": 452,
+     "kb": 35.9,
+     "dimensoes": [
+      0.649,
+      0.199,
+      0.27
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/barras/barras_n2.glb",
+     "previa": "previas/barras/barras_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Barras reguláveis tubulares",
+     "triangulos": 452,
+     "kb": 37,
+     "dimensoes": [
+      0.652,
+      0.199,
+      0.27
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/barras/barras_n3.glb",
+     "previa": "previas/barras/barras_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Barras tubulares com buchas de competição",
+     "triangulos": 452,
+     "kb": 33.3,
+     "dimensoes": [
+      0.652,
+      0.199,
+      0.27
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/barras/barras_n4.glb",
+     "previa": "previas/barras/barras_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Barras de regulagem rápida",
+     "triangulos": 516,
+     "kb": 37,
+     "dimensoes": [
+      0.68,
+      0.201,
+      0.27
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/barras/barras_n5.glb",
+     "previa": "previas/barras/barras_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "protetor",
+   "nome": "Protetor de cárter",
+   "categoria": "Suspensão e chassi",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Protetor de cárter de fábrica",
+     "triangulos": 180,
+     "kb": 17.7,
+     "dimensoes": [
+      0.7,
+      0.155,
+      0.825
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/protetor/protetor_fabrica.glb",
+     "previa": "previas/protetor/protetor_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Protetor de aço",
+     "triangulos": 244,
+     "kb": 21.3,
+     "dimensoes": [
+      0.7,
+      0.156,
+      0.826
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/protetor/protetor_n1.glb",
+     "previa": "previas/protetor/protetor_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Protetor de aço grosso",
+     "triangulos": 244,
+     "kb": 21.3,
+     "dimensoes": [
+      0.7,
+      0.158,
+      0.828
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/protetor/protetor_n2.glb",
+     "previa": "previas/protetor/protetor_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Protetor de alumínio",
+     "triangulos": 308,
+     "kb": 26.1,
+     "dimensoes": [
+      0.7,
+      0.157,
+      0.827
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/protetor/protetor_n3.glb",
+     "previa": "previas/protetor/protetor_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Protetor de alumínio grosso",
+     "triangulos": 332,
+     "kb": 28.1,
+     "dimensoes": [
+      0.7,
+      0.16,
+      0.829
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/protetor/protetor_n4.glb",
+     "previa": "previas/protetor/protetor_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Protetor de compósito",
+     "triangulos": 396,
+     "kb": 33.5,
+     "dimensoes": [
+      0.7,
+      0.158,
+      0.828
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/protetor/protetor_n5.glb",
+     "previa": "previas/protetor/protetor_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "gaiola",
+   "nome": "Gaiola de segurança",
+   "categoria": "Suspensão e chassi",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Gaiola de segurança de fábrica",
+     "triangulos": 68,
+     "kb": 13.2,
+     "dimensoes": [
+      1.26,
+      1.075,
+      0.192
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/gaiola/gaiola_fabrica.glb",
+     "previa": "previas/gaiola/gaiola_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Santo antônio parafusado",
+     "triangulos": 564,
+     "kb": 41.6,
+     "dimensoes": [
+      1.3,
+      1.08,
+      1
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/gaiola/gaiola_n1.glb",
+     "previa": "previas/gaiola/gaiola_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Gaiola parafusada de 4 pontos",
+     "triangulos": 584,
+     "kb": 43.1,
+     "dimensoes": [
+      1.3,
+      1.083,
+      1
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/gaiola/gaiola_n2.glb",
+     "previa": "previas/gaiola/gaiola_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Gaiola parafusada de 6 pontos",
+     "triangulos": 908,
+     "kb": 65.2,
+     "dimensoes": [
+      1.3,
+      1.086,
+      2.3
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/gaiola/gaiola_n3.glb",
+     "previa": "previas/gaiola/gaiola_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Gaiola soldada multiponto",
+     "triangulos": 452,
+     "kb": 35.4,
+     "dimensoes": [
+      1.3,
+      1.089,
+      2.3
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/gaiola/gaiola_n4.glb",
+     "previa": "previas/gaiola/gaiola_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Gaiola integrada de cromo-molibdênio",
+     "triangulos": 596,
+     "kb": 44.2,
+     "dimensoes": [
+      1.3,
+      1.089,
+      2.3
+     ],
+     "materiais": [
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/gaiola/gaiola_n5.glb",
+     "previa": "previas/gaiola/gaiola_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "reducao_peso",
+   "nome": "Alívio de peso",
+   "categoria": "Suspensão e chassi",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Alívio de peso de fábrica",
+     "triangulos": 148,
+     "kb": 15,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_fabrica.glb",
+     "previa": "previas/reducao_peso/reducao_peso_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Sem acabamento interno",
+     "triangulos": 136,
+     "kb": 14,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_n1.glb",
+     "previa": "previas/reducao_peso/reducao_peso_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Sem banco traseiro e forrações",
+     "triangulos": 144,
+     "kb": 14.7,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_n2.glb",
+     "previa": "previas/reducao_peso/reducao_peso_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Painéis em fibra",
+     "triangulos": 204,
+     "kb": 20.6,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_n3.glb",
+     "previa": "previas/reducao_peso/reducao_peso_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Vidros de policarbonato",
+     "triangulos": 272,
+     "kb": 25.4,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_n4.glb",
+     "previa": "previas/reducao_peso/reducao_peso_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Carroceria aliviada completa",
+     "triangulos": 412,
+     "kb": 34.8,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_n5.glb",
+     "previa": "previas/reducao_peso/reducao_peso_n5.png"
+    },
+    {
+     "nivel": "especial",
+     "nivel_nome": "Especial",
+     "nome": "Alívio com reforço nos pontos certos (prêmio)",
+     "triangulos": 412,
+     "kb": 34.8,
+     "dimensoes": [
+      1,
+      0.97,
+      0.725
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/reducao_peso/reducao_peso_especial.glb",
+     "previa": "previas/reducao_peso/reducao_peso_especial.png"
+    }
+   ]
+  },
+  {
+   "id": "pastilhas",
+   "nome": "Pastilhas de freio",
+   "categoria": "Freios",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Pastilhas de freio de fábrica",
+     "triangulos": 128,
+     "kb": 14.2,
+     "dimensoes": [
+      0.19,
+      0.058,
+      0.09
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/pastilhas/pastilhas_fabrica.glb",
+     "previa": "previas/pastilhas/pastilhas_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Pastilhas de alto atrito",
+     "triangulos": 128,
+     "kb": 14.2,
+     "dimensoes": [
+      0.19,
+      0.058,
+      0.094
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/pastilhas/pastilhas_n1.glb",
+     "previa": "previas/pastilhas/pastilhas_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Pastilhas esportivas",
+     "triangulos": 128,
+     "kb": 14.2,
+     "dimensoes": [
+      0.19,
+      0.058,
+      0.098
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/pastilhas/pastilhas_n2.glb",
+     "previa": "previas/pastilhas/pastilhas_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Pastilhas de competição",
+     "triangulos": 152,
+     "kb": 17.3,
+     "dimensoes": [
+      0.19,
+      0.058,
+      0.104
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/pastilhas/pastilhas_n3.glb",
+     "previa": "previas/pastilhas/pastilhas_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Pastilhas de competição para terra",
+     "triangulos": 200,
+     "kb": 21.4,
+     "dimensoes": [
+      0.19,
+      0.058,
+      0.109
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/pastilhas/pastilhas_n4.glb",
+     "previa": "previas/pastilhas/pastilhas_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Pastilhas de rali (mordem a frio)",
+     "triangulos": 172,
+     "kb": 18.9,
+     "dimensoes": [
+      0.237,
+      0.133,
+      0.108
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/pastilhas/pastilhas_n5.glb",
+     "previa": "previas/pastilhas/pastilhas_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "discos",
+   "nome": "Discos e pinças",
+   "categoria": "Freios",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Discos e pinças de fábrica",
+     "triangulos": 336,
+     "kb": 23.7,
+     "dimensoes": [
+      0.091,
+      0.276,
+      0.257
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/discos/discos_fabrica.glb",
+     "previa": "previas/discos/discos_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Discos ranhurados",
+     "triangulos": 408,
+     "kb": 29.7,
+     "dimensoes": [
+      0.091,
+      0.298,
+      0.281
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/discos/discos_n1.glb",
+     "previa": "previas/discos/discos_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Discos ventilados maiores",
+     "triangulos": 568,
+     "kb": 37.7,
+     "dimensoes": [
+      0.105,
+      0.32,
+      0.304
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/discos/discos_n2.glb",
+     "previa": "previas/discos/discos_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Discos ventilados com pinça de 4 pistões",
+     "triangulos": 604,
+     "kb": 41.4,
+     "dimensoes": [
+      0.105,
+      0.353,
+      0.328
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/discos/discos_n3.glb",
+     "previa": "previas/discos/discos_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Discos flutuantes com pinça de 4 pistões",
+     "triangulos": 844,
+     "kb": 57.6,
+     "dimensoes": [
+      0.105,
+      0.375,
+      0.352
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/discos/discos_n4.glb",
+     "previa": "previas/discos/discos_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Discos flutuantes com pinça de 6 pistões",
+     "triangulos": 844,
+     "kb": 57.7,
+     "dimensoes": [
+      0.105,
+      0.405,
+      0.375
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/discos/discos_n5.glb",
+     "previa": "previas/discos/discos_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "balanco_freio",
+   "nome": "Balanço de freio",
+   "categoria": "Freios",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Balanço de freio de fábrica",
+     "triangulos": 96,
+     "kb": 11.7,
+     "dimensoes": [
+      0.3,
+      0.07,
+      0.2
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/balanco_freio/balanco_freio_fabrica.glb",
+     "previa": "previas/balanco_freio/balanco_freio_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Válvula reguladora no assoalho",
+     "triangulos": 136,
+     "kb": 13.9,
+     "dimensoes": [
+      0.3,
+      0.07,
+      0.2
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/balanco_freio/balanco_freio_n1.glb",
+     "previa": "previas/balanco_freio/balanco_freio_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Válvula reguladora no painel",
+     "triangulos": 142,
+     "kb": 12.8,
+     "dimensoes": [
+      0.23,
+      0.124,
+      0.217
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/balanco_freio/balanco_freio_n2.glb",
+     "previa": "previas/balanco_freio/balanco_freio_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Pedaleira com barra de balanço",
+     "triangulos": 260,
+     "kb": 22,
+     "dimensoes": [
+      0.34,
+      0.34,
+      0.33
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/balanco_freio/balanco_freio_n3.glb",
+     "previa": "previas/balanco_freio/balanco_freio_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Pedaleira de competição",
+     "triangulos": 260,
+     "kb": 22,
+     "dimensoes": [
+      0.34,
+      0.34,
+      0.33
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/balanco_freio/balanco_freio_n4.glb",
+     "previa": "previas/balanco_freio/balanco_freio_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Pedaleira de competição com regulagem no painel",
+     "triangulos": 332,
+     "kb": 28.2,
+     "dimensoes": [
+      0.43,
+      0.38,
+      0.37
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/balanco_freio/balanco_freio_n5.glb",
+     "previa": "previas/balanco_freio/balanco_freio_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "freio_mao",
+   "nome": "Freio de mão",
+   "categoria": "Freios",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Freio de mão de fábrica",
+     "triangulos": 184,
+     "kb": 19,
+     "dimensoes": [
+      0.13,
+      0.17,
+      0.782
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/freio_mao/freio_mao_fabrica.glb",
+     "previa": "previas/freio_mao/freio_mao_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Freio de mão reforçado",
+     "triangulos": 184,
+     "kb": 19,
+     "dimensoes": [
+      0.13,
+      0.17,
+      0.782
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/freio_mao/freio_mao_n1.glb",
+     "previa": "previas/freio_mao/freio_mao_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Freio de mão com cabo de competição",
+     "triangulos": 184,
+     "kb": 19,
+     "dimensoes": [
+      0.13,
+      0.17,
+      0.782
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/freio_mao/freio_mao_n2.glb",
+     "previa": "previas/freio_mao/freio_mao_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Freio de mão hidráulico (alavanca vertical)",
+     "triangulos": 242,
+     "kb": 19.6,
+     "dimensoes": [
+      0.204,
+      0.457,
+      0.524
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/freio_mao/freio_mao_n3.glb",
+     "previa": "previas/freio_mao/freio_mao_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Freio de mão hidráulico de competição",
+     "triangulos": 274,
+     "kb": 21.4,
+     "dimensoes": [
+      0.204,
+      0.497,
+      0.524
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/freio_mao/freio_mao_n4.glb",
+     "previa": "previas/freio_mao/freio_mao_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Hidráulico com desacoplamento do diferencial central",
+     "triangulos": 326,
+     "kb": 24.8,
+     "dimensoes": [
+      0.204,
+      0.558,
+      0.529
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/freio_mao/freio_mao_n5.glb",
+     "previa": "previas/freio_mao/freio_mao_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "aerofolio",
+   "nome": "Aerofólio traseiro",
+   "categoria": "Carroceria e aerodinâmica",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Aerofólio traseiro de fábrica",
+     "triangulos": 24,
+     "kb": 6.1,
+     "dimensoes": [
+      1,
+      0.09,
+      0.315
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/aerofolio/aerofolio_fabrica.glb",
+     "previa": "previas/aerofolio/aerofolio_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Aerofólio de teto",
+     "triangulos": 48,
+     "kb": 10.9,
+     "dimensoes": [
+      1.05,
+      0.121,
+      0.385
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/aerofolio/aerofolio_n1.glb",
+     "previa": "previas/aerofolio/aerofolio_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Aerofólio de teto ampliado",
+     "triangulos": 72,
+     "kb": 12.9,
+     "dimensoes": [
+      1.15,
+      0.146,
+      0.43
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/aerofolio/aerofolio_n2.glb",
+     "previa": "previas/aerofolio/aerofolio_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Aerofólio regulável",
+     "triangulos": 208,
+     "kb": 20.6,
+     "dimensoes": [
+      1.212,
+      0.3,
+      0.32
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/aerofolio/aerofolio_n3.glb",
+     "previa": "previas/aerofolio/aerofolio_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Aerofólio de competição",
+     "triangulos": 100,
+     "kb": 14,
+     "dimensoes": [
+      1.312,
+      0.34,
+      0.36
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/aerofolio/aerofolio_n4.glb",
+     "previa": "previas/aerofolio/aerofolio_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Aerofólio de competição em carbono",
+     "triangulos": 100,
+     "kb": 14,
+     "dimensoes": [
+      1.372,
+      0.38,
+      0.38
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/aerofolio/aerofolio_n5.glb",
+     "previa": "previas/aerofolio/aerofolio_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "para_choque",
+   "nome": "Para-choque dianteiro",
+   "categoria": "Carroceria e aerodinâmica",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Para-choque dianteiro de fábrica",
+     "triangulos": 56,
+     "kb": 8.5,
+     "dimensoes": [
+      1.6,
+      0.42,
+      0.183
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/para_choque/para_choque_fabrica.glb",
+     "previa": "previas/para_choque/para_choque_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Para-choque esportivo",
+     "triangulos": 68,
+     "kb": 9.5,
+     "dimensoes": [
+      1.6,
+      0.42,
+      0.2
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/para_choque/para_choque_n1.glb",
+     "previa": "previas/para_choque/para_choque_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Para-choque com defletor",
+     "triangulos": 104,
+     "kb": 12.5,
+     "dimensoes": [
+      1.6,
+      0.426,
+      0.29
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/para_choque/para_choque_n2.glb",
+     "previa": "previas/para_choque/para_choque_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Para-choque com defletor e reforço",
+     "triangulos": 160,
+     "kb": 17.9,
+     "dimensoes": [
+      1.6,
+      0.426,
+      0.36
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/para_choque/para_choque_n3.glb",
+     "previa": "previas/para_choque/para_choque_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Para-choque de rali reforçado",
+     "triangulos": 196,
+     "kb": 22.7,
+     "dimensoes": [
+      1.6,
+      0.446,
+      0.36
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/para_choque/para_choque_n4.glb",
+     "previa": "previas/para_choque/para_choque_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Para-choque de rali em fibra com reforço",
+     "triangulos": 208,
+     "kb": 23.7,
+     "dimensoes": [
+      1.6,
+      0.446,
+      0.36
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono"
+     ],
+     "arquivo": "modelos/para_choque/para_choque_n5.glb",
+     "previa": "previas/para_choque/para_choque_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "farois_aux",
+   "nome": "Faróis auxiliares",
+   "categoria": "Carroceria e aerodinâmica",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Faróis auxiliares de fábrica",
+     "triangulos": 60,
+     "kb": 11.9,
+     "dimensoes": [
+      0.8,
+      0.16,
+      0.088
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/farois_aux/farois_aux_fabrica.glb",
+     "previa": "previas/farois_aux/farois_aux_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Dois faróis de milha",
+     "triangulos": 304,
+     "kb": 23.9,
+     "dimensoes": [
+      0.72,
+      0.197,
+      0.132
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/farois_aux/farois_aux_n1.glb",
+     "previa": "previas/farois_aux/farois_aux_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Quatro faróis de milha",
+     "triangulos": 636,
+     "kb": 43.5,
+     "dimensoes": [
+      0.72,
+      0.172,
+      0.132
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/farois_aux/farois_aux_n2.glb",
+     "previa": "previas/farois_aux/farois_aux_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Barra com quatro faróis de longo alcance",
+     "triangulos": 612,
+     "kb": 40.9,
+     "dimensoes": [
+      1.222,
+      0.309,
+      0.145
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/farois_aux/farois_aux_n3.glb",
+     "previa": "previas/farois_aux/farois_aux_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Barra de faróis de rali",
+     "triangulos": 704,
+     "kb": 48.7,
+     "dimensoes": [
+      1.222,
+      0.327,
+      0.16
+     ],
+     "materiais": [
+      "peca_brilho",
+      "peca_carbono",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/farois_aux/farois_aux_n4.glb",
+     "previa": "previas/farois_aux/farois_aux_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Barra de LED de rali",
+     "triangulos": 224,
+     "kb": 27,
+     "dimensoes": [
+      1.24,
+      0.19,
+      0.08
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_carbono",
+      "peca_luz"
+     ],
+     "arquivo": "modelos/farois_aux/farois_aux_n5.glb",
+     "previa": "previas/farois_aux/farois_aux_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "para_barro",
+   "nome": "Para-barros",
+   "categoria": "Carroceria e aerodinâmica",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Para-barros de fábrica",
+     "triangulos": 60,
+     "kb": 12.1,
+     "dimensoes": [
+      0.26,
+      0.16,
+      0.01
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/para_barro/para_barro_fabrica.glb",
+     "previa": "previas/para_barro/para_barro_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Para-barros de borracha",
+     "triangulos": 60,
+     "kb": 12.1,
+     "dimensoes": [
+      0.3,
+      0.24,
+      0.011
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/para_barro/para_barro_n1.glb",
+     "previa": "previas/para_barro/para_barro_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Para-barros de rali",
+     "triangulos": 72,
+     "kb": 13.1,
+     "dimensoes": [
+      0.34,
+      0.36,
+      0.012
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/para_barro/para_barro_n2.glb",
+     "previa": "previas/para_barro/para_barro_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Para-barros de rali reforçados",
+     "triangulos": 124,
+     "kb": 18,
+     "dimensoes": [
+      0.354,
+      0.456,
+      0.135
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/para_barro/para_barro_n3.glb",
+     "previa": "previas/para_barro/para_barro_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Para-barros de poliuretano",
+     "triangulos": 124,
+     "kb": 18,
+     "dimensoes": [
+      0.374,
+      0.476,
+      0.136
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/para_barro/para_barro_n4.glb",
+     "previa": "previas/para_barro/para_barro_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Para-barros de poliuretano de competição",
+     "triangulos": 148,
+     "kb": 20,
+     "dimensoes": [
+      0.394,
+      0.496,
+      0.136
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho",
+      "peca_borracha"
+     ],
+     "arquivo": "modelos/para_barro/para_barro_n5.glb",
+     "previa": "previas/para_barro/para_barro_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "conversao_tracao",
+   "nome": "Conversão para tração integral",
+   "categoria": "Conversões",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Conversão para tração integral de fábrica",
+     "triangulos": 172,
+     "kb": 13.7,
+     "dimensoes": [
+      0.76,
+      0.24,
+      0.26
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/conversao_tracao/conversao_tracao_fabrica.glb",
+     "previa": "previas/conversao_tracao/conversao_tracao_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Tração integral com acoplamento viscoso (pesada)",
+     "triangulos": 436,
+     "kb": 27.2,
+     "dimensoes": [
+      0.6,
+      0.26,
+      1.51
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/conversao_tracao/conversao_tracao_n1.glb",
+     "previa": "previas/conversao_tracao/conversao_tracao_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Tração integral com central viscoso",
+     "triangulos": 388,
+     "kb": 24.7,
+     "dimensoes": [
+      0.6,
+      0.26,
+      1.51
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/conversao_tracao/conversao_tracao_n2.glb",
+     "previa": "previas/conversao_tracao/conversao_tracao_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Tração integral com central viscoso aliviada",
+     "triangulos": 388,
+     "kb": 25.8,
+     "dimensoes": [
+      0.6,
+      0.26,
+      1.51
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/conversao_tracao/conversao_tracao_n3.glb",
+     "previa": "previas/conversao_tracao/conversao_tracao_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Tração integral com central mecânico",
+     "triangulos": 424,
+     "kb": 28.8,
+     "dimensoes": [
+      0.6,
+      0.26,
+      1.51
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/conversao_tracao/conversao_tracao_n4.glb",
+     "previa": "previas/conversao_tracao/conversao_tracao_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Tração integral de competição com central mecânico",
+     "triangulos": 424,
+     "kb": 28.8,
+     "dimensoes": [
+      0.6,
+      0.26,
+      1.51
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/conversao_tracao/conversao_tracao_n5.glb",
+     "previa": "previas/conversao_tracao/conversao_tracao_n5.png"
+    }
+   ]
+  },
+  {
+   "id": "carroceria_comp",
+   "nome": "Monobloco reforçado",
+   "categoria": "Conversões",
+   "niveis": [
+    {
+     "nivel": "fabrica",
+     "nivel_nome": "De fábrica",
+     "nome": "Monobloco reforçado de fábrica",
+     "triangulos": 192,
+     "kb": 15.5,
+     "dimensoes": [
+      1.216,
+      0.404,
+      1.01
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/carroceria_comp/carroceria_comp_fabrica.glb",
+     "previa": "previas/carroceria_comp/carroceria_comp_fabrica.png"
+    },
+    {
+     "nivel": "n1",
+     "nivel_nome": "Rua",
+     "nome": "Pontos de fixação soldados",
+     "triangulos": 480,
+     "kb": 35,
+     "dimensoes": [
+      1.216,
+      0.404,
+      1.01
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/carroceria_comp/carroceria_comp_n1.glb",
+     "previa": "previas/carroceria_comp/carroceria_comp_n1.png"
+    },
+    {
+     "nivel": "n2",
+     "nivel_nome": "Esportivo",
+     "nome": "Monobloco com reforços soldados",
+     "triangulos": 600,
+     "kb": 43.5,
+     "dimensoes": [
+      1.216,
+      0.404,
+      1.01
+     ],
+     "materiais": [
+      "peca_fosco"
+     ],
+     "arquivo": "modelos/carroceria_comp/carroceria_comp_n2.glb",
+     "previa": "previas/carroceria_comp/carroceria_comp_n2.png"
+    },
+    {
+     "nivel": "n3",
+     "nivel_nome": "Competição",
+     "nome": "Monobloco costurado nas torres",
+     "triangulos": 836,
+     "kb": 62.7,
+     "dimensoes": [
+      1.216,
+      0.404,
+      1.01
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/carroceria_comp/carroceria_comp_n3.glb",
+     "previa": "previas/carroceria_comp/carroceria_comp_n3.png"
+    },
+    {
+     "nivel": "n4",
+     "nivel_nome": "Rali",
+     "nome": "Monobloco de competição",
+     "triangulos": 888,
+     "kb": 66.3,
+     "dimensoes": [
+      1.216,
+      0.404,
+      1.01
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/carroceria_comp/carroceria_comp_n4.glb",
+     "previa": "previas/carroceria_comp/carroceria_comp_n4.png"
+    },
+    {
+     "nivel": "n5",
+     "nivel_nome": "Preparação total",
+     "nome": "Monobloco de competição costurado",
+     "triangulos": 1024,
+     "kb": 75.8,
+     "dimensoes": [
+      1.216,
+      0.404,
+      1.01
+     ],
+     "materiais": [
+      "peca_fosco",
+      "peca_brilho"
+     ],
+     "arquivo": "modelos/carroceria_comp/carroceria_comp_n5.glb",
+     "previa": "previas/carroceria_comp/carroceria_comp_n5.png"
+    }
+   ]
+  }
+ ]
+}

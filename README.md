@@ -1,4 +1,5 @@
 # Scitizia: 190 peças de carro low poly em glTF/GLB com visual retrô de 64 bits
+🇧🇷 Português · **🇬🇧 [Read in English](README.en.md)**
 
 ![Mosaico com as 190 peças de carro low poly: filtros de ar, coletores, escapamentos, comandos, turbinas, intercoolers, câmbios, molas, amortecedores, gaiolas, discos de freio, aerofólios, para-choques e faróis auxiliares, do original de fábrica à preparação total](docs/pecas-de-carro-low-poly-64-bits.jpg)
 
